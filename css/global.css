@@ -1,0 +1,85 @@
+/*Padrão*/
+body{
+    font-family : Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/*Cabeçario*/
+header{
+    background-color: #ffff;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+#Tamanho{
+    width: 226px;
+}
+
+a{
+    text-decoration: none;
+    padding: 7px;
+    color: #1351d8;
+    font-size: 20px;
+}
+
+
+/*Rodapé*/
+footer{
+    height: 80px;
+    background-color: #1b357e;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+}   
+
+footer div{
+    display: flex;
+    align-items: center;
+}
+
+.redes-socias { 
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+    color: #ffffff;
+}
+ 
+@media(max-width: 768px){
+    header{
+        text-align: center;
+
+    }
+
+    main{
+        display: flex;
+        align-items: center;
+    }
+    .Llgo{
+        width: 100px;
+        
+    }
+    .lkp{
+        display: flex;
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        
+    }
+}
